@@ -28,7 +28,6 @@ public class EncryptDecryptFiles {
             DecryptCaesar.decrypt();
 
         }else if (choice.equals("3") || choice.toLowerCase().equals("three")) {
-                System.out.println("Три");
                 DecryptToOthers.decryptTO();
 
         }else System.out.println("enter the number or enter the exit");
